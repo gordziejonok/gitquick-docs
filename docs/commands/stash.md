@@ -11,6 +11,8 @@ sidebar_position: 7
 
 TBD
 
+## Options
+
 | Option | Description |
 | - | - |
 | `push` | Interactively select files to stash. |
