@@ -44,11 +44,13 @@ const FeatureList: FeatureItem[] = [
 ];
 
 function Feature({ title, Svg, description }: FeatureItem) {
+  let fill = '';
   const { colorMode } = useColorMode()
-  if (title === 'Uses git' && colorMode === 'light') {
-    Svg = require('@site/static/img/Git-Logo-1788C.svg').default
-  } else if (title === 'Uses git' && colorMode === 'dark') {
+  if (title === 'Uses git' && colorMode === 'dark') {
     Svg = require('@site/static/img/Git-Logo-White.svg').default
+  }
+  if (title === 'Powered by Rust' && colorMode === 'dark') {
+    Svg = require('@site/static/img/rust-logo-wht.svg').default
   }
   return (
     <div className={clsx('col col--4')}>
