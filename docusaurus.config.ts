@@ -97,47 +97,43 @@ const config: Config = {
     },
     footer: {
       style: 'dark',
-      links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Tutorial',
-              to: '/docs/get-started',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            // {
-            //   label: 'Blog',
-            //   to: '/blog',
-            // },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/gordziejonok/gitquick',
-            },
-          ],
-        },
-      ],
+      // links: [
+      //   {
+      //     title: 'Docs',
+      //     items: [
+      //       {
+      //         label: 'Tutorial',
+      //         to: '/docs/get-started',
+      //       },
+      //     ],
+      //   },
+      //   {
+      //     title: 'Community',
+      //     items: [
+      //       {
+      //         label: 'Stack Overflow',
+      //         href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+      //       },
+      //       {
+      //         label: 'Discord',
+      //         href: 'https://discordapp.com/invite/docusaurus',
+      //       },
+      //       {
+      //         label: 'X',
+      //         href: 'https://x.com/docusaurus',
+      //       },
+      //     ],
+      //   },
+      //   {
+      //     title: 'More',
+      //     items: [
+      //       {
+      //         label: 'GitHub',
+      //         href: 'https://github.com/gordziejonok/gitquick',
+      //       },
+      //     ],
+      //   },
+      // ],
       copyright: `Copyright © ${new Date().getFullYear()} GitQuick. Built with Docusaurus.`,
     },
     prism: {
