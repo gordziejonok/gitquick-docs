@@ -9,7 +9,7 @@ sidebar_position: 7
 
 ## Description
 
-TBD
+Interactively stash the changes in a dirty working directory away. Uses `--include-untracked` flag by default.
 
 ## Options
 
