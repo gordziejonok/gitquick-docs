@@ -40,4 +40,9 @@ gq config commit.ticket true
 ```
 This setting will append ticket number inside parentheses to the end of your commits while using `gq commit`.
 
-Using `gq commit` to create `docs: add readme file` commit message on `feature/TEST-123-demo-setup` branch will result in the following message: `docs: add readme file (TEST-123)`. 
+Using `gq commit` to create `docs: add readme file` commit message on `feature/TEST-123-demo-setup` branch will result in the following message: 
+```
+docs: add readme file
+
+Refs: TEST-123
+``` 
